@@ -1,0 +1,102 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.stopwatch{
+  color: white;
+  border-radius: 50%;
+  padding: 20px 25px;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 12px solid aqua;
+}
+
+.timerDisplay{
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.buttons{
+  margin-top: 20px;
+}
+
+
+.btn{
+  padding: 10px 24px ;
+  font-size: 30px;
+  background: none;
+  border: none;
+  color: white;
+  background-color: var(--clr);
+  color: whitesmoke;
+  margin-inline: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.laps{
+  color: white;
+  margin-top: 20px;
+  list-style: none;
+  height: 160px;
+  overflow-y: scroll;
+  position: relative;
+  padding: 10px 0;
+}
+
+.laps::-webkit-scrollbar{
+  display: none;
+}
+
+.lap-item{
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #444;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.number{
+  color: #cccccc;
+  margin-right: 20px;
+}
+
+.time-stamp{
+  display: inline-block;
+}
+
+.lap-clear-button{
+  font-size: 17px;
+  font-weight: bold;
+  display: block;
+  position: fixed;
+  bottom: 50px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 150px;
+  padding: 10px;
+  border-radius: 50px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.hidden{
+  visibility: hidden;
+}
+
