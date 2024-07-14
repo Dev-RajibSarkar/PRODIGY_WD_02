@@ -1,1 +1,1 @@
-# PRODIGY_WD_02
+This is a Stopwatch Web application. This application has different functions such as starting, stopping and resetting the stopwatch as well as tracking and displaying the lap times. Users can accurately measure and record time intervals.
